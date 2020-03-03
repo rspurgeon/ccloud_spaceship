@@ -18,7 +18,7 @@
     venv          # virtualenv section
     pyenv         # Pyenv section
     kubecontext   # Kubectl context section
-    ccloud                # Confluent cloud section
+    ccloud        # Confluent cloud section
     exec_time     # Execution time
     line_sep      # Line break
     battery       # Battery level and status
