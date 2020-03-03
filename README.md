@@ -1,10 +1,10 @@
-# ccloud spaceshipt prompt section
+# Confluent Cloud Spaceship prompt section
 If you're a user of [Confluent Cloud](cloud.confluent.io) and the [Spaceship Prompt](https://denysdovhan.com/spaceship-prompt/), this will display Confluent Cloud status on your prompt integrated w/ the rest of spaceship
 
 # usage
 * Clone locally
-* Create a symlink to <repo>/ccloud.zsh in <oh-my-zsh dir>/custom/themes/spaceship-prompt/sections
-* Override the SPACESHIP_PROMPT_ORDER variable to include ccloud, for example:
+* Create a symlink to `<repo>/ccloud.zsh` in `<oh-my-zsh dir>/custom/themes/spaceship-prompt/sections`
+* Override `SPACESHIP_PROMPT_ORDER` variable to include ccloud, for example:
   ```
   SPACESHIP_PROMPT_ORDER=(
     time          # Time stampts section
@@ -29,7 +29,7 @@ If you're a user of [Confluent Cloud](cloud.confluent.io) and the [Spaceship Pro
     exit_code     # Exit code section
     char          # Prompt character
   )
-* Enable various spaceshipt prompt features, including `ccloud`
+* Enable various Spaceship prompt features, including `ccloud`
 	```
 	ZSH_THEME="spaceship"
 	SPACESHIP_TIME_SHOW=true
