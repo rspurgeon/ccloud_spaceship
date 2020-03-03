@@ -28,3 +28,9 @@
     char          # Prompt character
   )
   ``` 
+* Customize:
+	```
+	SPACESHIP_CCLOUD_SHOW=true|false
+	SPACESHIP_CCLOUD_PREFIX
+	SPACESHIP_CCLOUD_SUFFIX
+	```
