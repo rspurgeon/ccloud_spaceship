@@ -17,7 +17,7 @@ spaceship_ccloud() {
   local ccloud_status="$(ccloud prompt)"
 
   # Exit section if variable is empty
-  #[[ -z $ccloud_status ]] && return
+  [[ -z $ccloud_status ]] && return
 
   # Display ccloud section
   spaceship::section \
