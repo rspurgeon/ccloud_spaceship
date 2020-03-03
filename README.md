@@ -1,3 +1,5 @@
+# ccloud spaceshipt prompt section
+If you're a user of [Confluent Cloud](cloud.confluent.io) and the [Spaceship Prompt](https://denysdovhan.com/spaceship-prompt/), this will display Confluent Cloud status on your prompt integrated w/ the rest of spaceship
 
 # usage
 * Clone locally
@@ -27,6 +29,19 @@
     exit_code     # Exit code section
     char          # Prompt character
   )
+* Enable various spaceshipt prompt features, including `ccloud`
+	```
+	ZSH_THEME="spaceship"
+	SPACESHIP_TIME_SHOW=true
+	SPACESHIP_TIME_PREFIX=
+	SPACESHIP_CCLOUD_SHOW=true
+	SPACESHIP_CCLOUD_PREFIX=
+	SPACESHIP_KUBECONTEXT_SHOW=false
+	SPACESHIP_DOCKER_SHOW=false
+	SPACESHIP_NODE_SHOW=false
+	SPACESHIP_PACKAGE_SHOW=false
+	```
+
   ``` 
 * Customize:
 	```
