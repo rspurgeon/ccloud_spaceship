@@ -34,3 +34,6 @@
 	SPACESHIP_CCLOUD_PREFIX
 	SPACESHIP_CCLOUD_SUFFIX
 	```
+
+Example:
+![example]: ./images/example.png
